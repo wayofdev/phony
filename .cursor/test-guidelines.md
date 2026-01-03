@@ -15,7 +15,7 @@ This document provides best practices for testing in this PHP project.
 
 ## Test Directory Structure
 
-```
+```text
 tests/
 └── src/
     ├── Arch/           # Architecture tests (Pest DSL)
@@ -116,7 +116,7 @@ This project uses PHPStan at **level: max**. Tests are analyzed too (`tests/` is
 public function can_be_created(): void
 {
     $package = Package::fromName('vendor/package');
-    
+
     // Error: Type is already known from return type declaration
     self::assertInstanceOf(Package::class, $package);
 }
@@ -129,7 +129,7 @@ public function can_be_created(): void
 public function returns_name(): void
 {
     $package = Package::fromName('vendor/package');
-    
+
     self::assertSame('vendor/package', $package->name());
 }
 ```
@@ -141,6 +141,7 @@ If a class can be instantiated (constructor doesn't throw), other tests will imp
 #### 3. Type-Related Assertions
 
 When testing return types that are already declared:
+
 - Skip `assertInstanceOf()` for typed returns
 - Skip `assertIsArray()` for `array` returns
 - Skip `assertIsString()` for `string` returns
@@ -161,13 +162,14 @@ make infect-ci       # CI mode with GitHub output
 ### Configuration
 
 See `infection.json.dist`:
+
 - `minMsi`: 60 - Minimum Mutation Score Indicator
 - `minCoveredMsi`: 60 - Minimum MSI for covered code
 - Source directory: `src/`
 
 ### Understanding Results
 
-```
+```text
 .: killed by tests     # Good - test caught the mutant
 M: escaped             # Bad - mutant survived, test gap
 U: uncovered           # Not covered by tests
@@ -198,6 +200,7 @@ docker compose run --rm --no-deps app vendor/bin/pest --filter="returns_name"
 ### Coverage Reports
 
 After running `make test-cc`:
+
 - HTML report: `.build/coverage/index.html`
 - Text report: `.build/coverage.txt`
 - Clover XML: `.build/phpunit/logs/clover.xml`
@@ -205,6 +208,7 @@ After running `make test-cc`:
 ### Infection Logs
 
 After running `make infect`:
+
 - Detailed log: `.build/infection/infection-log.txt`
 
 ## Common Workflows
@@ -238,4 +242,3 @@ make infect        # Mutation testing
 - **Pest**: 4.x (runs on top of PHPUnit)
 - **Infection**: 0.32.x (via roave/infection-static-analysis-plugin)
 - **PHPStan**: 2.x (level: max)
-
