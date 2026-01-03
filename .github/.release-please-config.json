@@ -20,6 +20,11 @@
             "hidden": false
         },
         {
+            "type": "security",
+            "section": "Security",
+            "hidden": false
+        },
+        {
             "type": "perf",
             "section": "Performance Improvements",
             "hidden": false
