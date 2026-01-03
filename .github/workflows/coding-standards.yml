@@ -78,7 +78,7 @@ jobs:
         os:
           - ubuntu-latest
         php-version:
-          - '8.2'
+          - '8.3'
         dependencies:
           - locked
     permissions:
@@ -138,7 +138,7 @@ jobs:
         os:
           - ubuntu-latest
         php-version:
-          - '8.2'
+          - '8.3'
         dependencies:
           - locked
     permissions:
