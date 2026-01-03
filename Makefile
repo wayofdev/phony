@@ -110,7 +110,7 @@ all: env prepare install hooks phive up
 #
 # System Actions
 # ------------------------------------------------------------------------------------
-env: ## Generate .env file from example, use `make env force=true`, to force re-create file
+env: ## Generate .env file from example, use `make env FORCE=true`, to force re-create file
 ifeq ($(FORCE),true)
 	@echo "${YELLOW}Force re-creating .env file from example...${RST}"
 	$(ENVSUBST) $(EXPORT_VARS) < ./.env.example > ./.env

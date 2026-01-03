@@ -186,9 +186,7 @@ jobs:
         run: make prepare
 
       - name: 🚨 Run coding standards task
-        run: composer cs:fix
-        env:
-          PHP_CS_FIXER_IGNORE_ENV: true
+        run: composer cs:diff
 
 # - name: 📤 Commit and push changed files back to GitHub
 #   uses: stefanzweifel/git-auto-commit-action@v5.2.0
