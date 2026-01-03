@@ -1,9 +1,10 @@
 parameters:
     level: max
-
     paths:
         - src/
-
-    checkMissingIterableValueType: false
-
+        - tests/
+        - .php-cs-fixer.dist.php
+        - rector.php
+    excludePaths:
+        - tests/src/Arch/*
     tmpDir: .build/phpstan/
