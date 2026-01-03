@@ -252,7 +252,7 @@ lint-composer: ## Normalize composer.json and composer.lock files
 
 lint-audit: ## Runs security checks for composer dependencies
 	$(APP_COMPOSER) audit
-.PHONY: lint-security
+.PHONY: lint-audit
 
 refactor: ## Runs rector – code refactoring tool
 	$(APP_COMPOSER) refactor
@@ -267,14 +267,14 @@ infect: ## Runs mutation tests with infection/infection
 
 infect-ci: ## Runs infection – mutation testing framework with github output (CI mode)
 	$(APP_COMPOSER) infect:ci
-.PHONY: lint-infect-ci
+.PHONY: infect-ci
 
 test: test-unit test-arch ## Run project php-unit and pest tests
 .PHONY: test
 
 test-unit: ## Run project php-unit tests
 	$(APP_COMPOSER) test
-.PHONY: test
+.PHONY: test-unit
 
 test-arch: ## Run project pest tests with architecture checks
 	$(APP_COMPOSER) test:arch
