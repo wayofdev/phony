@@ -1,23 +1,23 @@
 {
     "name": "wayofdev/to-better-php",
     "description": "PHP package template with GitHub Actions",
-    "type": "library",
     "license": "MIT",
-    "homepage": "https://wayof.dev",
-    "support": {
-        "issues": "https://github.com/wayofdev/to-better-php/issues",
-        "source": "https://github.com/wayofdev/to-better-php"
-    },
+    "type": "library",
     "authors": [
         {
             "name": "lotyp",
             "email": "the@wayof.dev"
         }
     ],
+    "homepage": "https://wayof.dev",
+    "support": {
+        "issues": "https://github.com/wayofdev/to-better-php/issues",
+        "source": "https://github.com/wayofdev/to-better-php"
+    },
     "require": {
         "php": "^8.3",
-        "ext-mbstring": "*",
         "ext-intl": "*",
+        "ext-mbstring": "*",
         "ergebnis/composer-normalize": "^2.48",
         "ergebnis/json": "^1.6",
         "ergebnis/json-normalizer": "^4.10",
@@ -40,7 +40,7 @@
         "roave/infection-static-analysis-plugin": "^1.43",
         "roave/security-advisories": "dev-latest",
         "vimeo/psalm": "^6.14",
-        "wayofdev/cs-fixer-config": "^v1.5"
+        "wayofdev/cs-fixer-config": "^1.5"
     },
     "autoload": {
         "psr-4": {
@@ -50,6 +50,21 @@
     "autoload-dev": {
         "psr-4": {
             "WayOfDev\\Tests\\": "tests/src/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "ergebnis/composer-normalize": true,
+            "infection/extension-installer": true,
+            "pestphp/pest-plugin": true,
+            "phpstan/extension-installer": true
+        },
+        "sort-packages": true
+    },
+    "extra": {
+        "composer-normalize": {
+            "indent-size": 4,
+            "indent-style": "space"
         }
     },
     "scripts": {
@@ -83,20 +98,5 @@
             "@putenv XDEBUG_MODE=coverage",
             "pest --coverage --coverage-clover=.build/phpunit/logs/clover.xml"
         ]
-    },
-    "config": {
-        "sort-packages": true,
-        "allow-plugins": {
-            "ergebnis/composer-normalize": true,
-            "infection/extension-installer": true,
-            "pestphp/pest-plugin": true,
-            "phpstan/extension-installer": true
-        }
-    },
-    "extra": {
-        "composer-normalize": {
-            "indent-size": 4,
-            "indent-style": "space"
-        }
     }
 }
