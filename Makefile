@@ -18,7 +18,7 @@ APP_RUNNER ?= $(DOCKER_COMPOSE) run --rm --no-deps app
 APP_COMPOSER ?= $(APP_RUNNER) composer
 
 BUILDER_PARAMS ?= $(DOCKER) run --rm -i \
-	--env-file ./.env \
+	$(if $(wildcard ./.env),--env-file ./.env) \
 	--env COMPOSE_PROJECT_NAME=$(COMPOSE_PROJECT_NAME) \
 	--env COMPOSER_AUTH="$(COMPOSER_AUTH)"
 

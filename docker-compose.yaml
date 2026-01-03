@@ -11,7 +11,8 @@ services:
       - ./:/app:rw
       - ~/.composer:/.composer
     env_file:
-      - .env
+      - path: .env
+        required: false
     environment:
       PHIVE_HOME: /app/.phive
 
