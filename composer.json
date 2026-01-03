@@ -1,7 +1,7 @@
 {
     "name": "wayofdev/to-better-php",
     "description": "PHP package template with GitHub Actions",
-    "license": "MIT",
+    "license": "BSD-3-Clause",
     "type": "library",
     "authors": [
         {
