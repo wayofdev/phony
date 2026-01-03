@@ -10,7 +10,7 @@ repos:
         args: ['--maxkb=600']
 
   - repo: https://github.com/commitizen-tools/commitizen
-    rev: v4.9.1
+    rev: v4.11.1
     hooks:
       - id: commitizen
         stages:
@@ -36,6 +36,6 @@ repos:
         description: Run markdownlint-cli2 on your Markdown files using the docker image
         language: docker_image
         types: [markdown]
-        entry: davidanson/markdownlint-cli2-rules:latest
+        entry: davidanson/markdownlint-cli2-rules:latest --config .github/.markdownlint.json
 
 ...
