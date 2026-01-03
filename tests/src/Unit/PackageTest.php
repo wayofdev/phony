@@ -13,14 +13,6 @@ use WayOfDev\TBP\Package;
 final class PackageTest extends TestCase
 {
     #[Test]
-    public function can_be_created_from_name(): void
-    {
-        $package = Package::fromName('vendor/package');
-
-        self::assertInstanceOf(Package::class, $package);
-    }
-
-    #[Test]
     public function returns_name(): void
     {
         $package = Package::fromName('vendor/package');

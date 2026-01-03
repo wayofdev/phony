@@ -13,14 +13,6 @@ use WayOfDev\TBP\Application;
 final class ApplicationTest extends TestCase
 {
     #[Test]
-    public function can_be_instantiated(): void
-    {
-        $application = new Application();
-
-        self::assertInstanceOf(Application::class, $application);
-    }
-
-    #[Test]
     public function has_correct_name(): void
     {
         $application = new Application();
