@@ -84,7 +84,7 @@ jobs:
           - ubuntu-latest
         php-version:
           - '8.3'
-          - '8.3'
+          - '8.4'
         dependencies:
           - lowest
           - locked
