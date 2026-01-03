@@ -27,6 +27,7 @@
         "symfony/console": "^7.4"
     },
     "require-dev": {
+        "ergebnis/phpunit-slow-test-detector": "^2.20",
         "pestphp/pest": "^4.3",
         "phpstan/extension-installer": "^1.4",
         "phpstan/phpstan": "^2.1",
@@ -34,20 +35,21 @@
         "phpstan/phpstan-phpunit": "^2.0",
         "phpstan/phpstan-strict-rules": "^2.0",
         "phpunit/phpunit": "^12.5",
+        "psalm/plugin-phpunit": "^0.19",
         "rector/rector": "^2.3",
+        "roave/infection-static-analysis-plugin": "^1.43",
         "roave/security-advisories": "dev-latest",
-        "wayofdev/cs-fixer-config": "^v1.5",
         "vimeo/psalm": "^6.14",
-        "psalm/plugin-phpunit": "^0.19"
+        "wayofdev/cs-fixer-config": "^v1.5"
     },
     "autoload": {
         "psr-4": {
-            "WayOfDev\\Package\\": "src/"
+            "WayOfDev\\TBD\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "WayOfDev\\Package\\Tests\\": "tests/"
+            "WayOfDev\\Tests\\": "tests/src/"
         }
     },
     "scripts": {
@@ -86,8 +88,9 @@
         "sort-packages": true,
         "allow-plugins": {
             "ergebnis/composer-normalize": true,
-            "phpstan/extension-installer": true,
-            "pestphp/pest-plugin": true
+            "infection/extension-installer": true,
+            "pestphp/pest-plugin": true,
+            "phpstan/extension-installer": true
         }
     },
     "extra": {
