@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace WayOfDev\Package;
+namespace WayOfDev\TBP;
 
-final class Package
+final readonly class Package
 {
-    private readonly string $name;
+    private string $name;
 
     private function __construct(string $name)
     {
