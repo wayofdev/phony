@@ -2,11 +2,16 @@
 
 declare(strict_types=1);
 
-namespace WayOfDev\Package;
+namespace WayOfDev\TBP;
 
-final class Package
+final readonly class Package
 {
     private string $name;
+
+    private function __construct(string $name)
+    {
+        $this->name = $name;
+    }
 
     public static function fromName(string $name): self
     {
@@ -16,10 +21,5 @@ final class Package
     public function name(): string
     {
         return $this->name;
-    }
-
-    private function __construct(string $name)
-    {
-        $this->name = $name;
     }
 }

@@ -11,8 +11,7 @@ $config = ConfigBuilder::createFromRuleSet(new DefaultSet(['static_lambda' => fa
     ->inDir(__DIR__ . '/src')
     ->inDir(__DIR__ . '/tests')
     ->addFiles([__FILE__])
-    ->getConfig()
-;
+    ->getConfig();
 
 $config->setCacheFile(__DIR__ . '/.build/php-cs-fixer/php-cs-fixer.cache');
 
