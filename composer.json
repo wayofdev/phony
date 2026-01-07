@@ -1,5 +1,5 @@
 {
-    "name": "wayofdev/to-better-php",
+    "name": "wayofdev/phony",
     "description": "PHP package template with GitHub Actions",
     "license": "BSD-3-Clause",
     "type": "library",
@@ -11,8 +11,8 @@
     ],
     "homepage": "https://wayof.dev",
     "support": {
-        "issues": "https://github.com/wayofdev/to-better-php/issues",
-        "source": "https://github.com/wayofdev/to-better-php"
+        "issues": "https://github.com/wayofdev/phony/issues",
+        "source": "https://github.com/wayofdev/phony"
     },
     "require": {
         "php": "^8.3",
@@ -44,7 +44,7 @@
     },
     "autoload": {
         "psr-4": {
-            "WayOfDev\\TBP\\": "src/"
+            "WayOfDev\\Phony\\": "src/"
         }
     },
     "autoload-dev": {

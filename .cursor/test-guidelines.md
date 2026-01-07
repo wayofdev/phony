@@ -56,7 +56,7 @@ namespace WayOfDev\Tests\Unit;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\TestCase;
-use WayOfDev\TBP\YourClass;
+use WayOfDev\Phony\YourClass;
 
 #[CoversClass(YourClass::class)]
 final class YourClassTest extends TestCase
@@ -96,7 +96,7 @@ arch('do not forget dumps in your production code')
 
 // Ensure all classes in src/ are final
 arch('all classes should be final')
-    ->expect('WayOfDev\TBP')
+    ->expect('WayOfDev\Phony')
     ->classes()
     ->toBeFinal();
 ```

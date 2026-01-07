@@ -35,8 +35,8 @@ This single command executes:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/wayofdev/to-better-php.git
-cd to-better-php
+git clone https://github.com/wayofdev/phony.git
+cd phony
 ```
 
 ### 2. Create Environment File

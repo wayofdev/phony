@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace WayOfDev\TBP;
+namespace WayOfDev\Phony;
 
 final readonly class Package
 {

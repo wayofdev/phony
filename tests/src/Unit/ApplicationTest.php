@@ -7,7 +7,7 @@ namespace WayOfDev\Tests\Unit;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\TestCase;
-use WayOfDev\TBP\Application;
+use WayOfDev\Phony\Application;
 
 #[CoversClass(Application::class)]
 final class ApplicationTest extends TestCase

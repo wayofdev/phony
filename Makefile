@@ -79,7 +79,7 @@ else
 	WHITE := ""
 	RST := ""
 endif
-MAKE_LOGFILE = /tmp/wayofdev-to-better-php.log
+MAKE_LOGFILE = /tmp/wayofdev-phony.log
 MAKE_CMD_COLOR := $(BLUE)
 
 default: all
@@ -92,7 +92,7 @@ help: ## Show this menu
 	@echo
 	@echo '    📑 Logs are stored in      $(MAKE_LOGFILE)'
 	@echo
-	@echo '    📦 Package                 to-better-php (https://github.com/wayofdev/to-better-php)'
+	@echo '    📦 Package                 phony (https://github.com/wayofdev/phony)'
 	@echo '    🤠 Author                  lotyp (https://github.com/lotyp)'
 	@echo '    🏢 ${YELLOW}Org                     wayofdev (https://github.com/wayofdev)${RST}'
 	@echo

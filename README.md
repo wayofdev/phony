@@ -11,19 +11,19 @@
 
 <p align="center">
     <strong>Build</strong><br>
-    <a href="https://github.com/wayofdev/to-better-php/actions" target="_blank"><img alt="Build Status" src="https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fwayofdev%2Fto-better-php%2Fbadge&style=flat-square&label=github%20actions"/></a>
+    <a href="https://github.com/wayofdev/phony/actions" target="_blank"><img alt="Build Status" src="https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fwayofdev%2Fphony%2Fbadge&style=flat-square&label=github%20actions"/></a>
 </p>
 <p align="center">
     <strong>Project</strong><br>
-    <a href="https://packagist.org/packages/wayofdev/to-better-php" target="_blank"><img src="https://img.shields.io/packagist/dt/wayofdev/to-better-php?&style=flat-square" alt="Total Downloads"></a>
-    <a href="https://packagist.org/packages/wayofdev/to-better-php" target="_blank"><img src="https://img.shields.io/packagist/v/wayofdev/to-better-php?&style=flat-square" alt="Latest Stable Version"></a>
-    <a href="https://packagist.org/packages/wayofdev/to-better-php" target="_blank"><img alt="Commits since latest release" src="https://img.shields.io/github/commits-since/wayofdev/to-better-php/latest?style=flat-square"></a>
-    <a href="https://packagist.org/packages/wayofdev/to-better-php" target="_blank"><img alt="PHP Version Require" src="https://poser.pugx.org/wayofdev/to-better-php/require/php?style=flat-square"></a>
+    <a href="https://packagist.org/packages/wayofdev/phony" target="_blank"><img src="https://img.shields.io/packagist/dt/wayofdev/phony?&style=flat-square" alt="Total Downloads"></a>
+    <a href="https://packagist.org/packages/wayofdev/phony" target="_blank"><img src="https://img.shields.io/packagist/v/wayofdev/phony?&style=flat-square" alt="Latest Stable Version"></a>
+    <a href="https://packagist.org/packages/wayofdev/phony" target="_blank"><img alt="Commits since latest release" src="https://img.shields.io/github/commits-since/wayofdev/phony/latest?style=flat-square"></a>
+    <a href="https://packagist.org/packages/wayofdev/phony" target="_blank"><img alt="PHP Version Require" src="https://poser.pugx.org/wayofdev/phony/require/php?style=flat-square"></a>
 </p>
 <p align="center">
     <strong>Quality</strong><br>
-    <a href="https://app.codecov.io/gh/wayofdev/to-better-php" target="_blank"><img alt="Codecov" src="https://img.shields.io/codecov/c/github/wayofdev/to-better-php?style=flat-square&logo=codecov"></a>
-    <a href="https://dashboard.stryker-mutator.io/reports/github.com/wayofdev/to-better-php/master" target="_blank"><img alt="Mutation testing badge" src="https://img.shields.io/endpoint?style=flat-square&label=mutation%20score&url=https%3A%2F%2Fbadge-api.stryker-mutator.io%2Fgithub.com%2Fwayofdev%2Fto-better-php%2Fmaster"></a>
+    <a href="https://app.codecov.io/gh/wayofdev/phony" target="_blank"><img alt="Codecov" src="https://img.shields.io/codecov/c/github/wayofdev/phony?style=flat-square&logo=codecov"></a>
+    <a href="https://dashboard.stryker-mutator.io/reports/github.com/wayofdev/phony/master" target="_blank"><img alt="Mutation testing badge" src="https://img.shields.io/endpoint?style=flat-square&label=mutation%20score&url=https%3A%2F%2Fbadge-api.stryker-mutator.io%2Fgithub.com%2Fwayofdev%2Fphony%2Fmaster"></a>
     <a href=""><img src="https://img.shields.io/badge/phpstan%20level-8%20of%209-brightgreen?style=flat-square" alt="PHP Stan Level 6 of 9"></a>
 </p>
 <p align="center">
@@ -34,6 +34,6 @@
 
 <br>
 
-# TBP: To-Better-PHP — All in one PHP toolchain
+# Phony: All in one PHP toolchain
 
 This package @todo

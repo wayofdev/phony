@@ -2,18 +2,18 @@
 
 declare(strict_types=1);
 
-namespace WayOfDev\TBP;
+namespace WayOfDev\Phony;
 
 use Symfony\Component\Console\Application as BaseApplication;
 
-// use TBP\Command\Composer\CheckCommand as ComposerCheckCommand;
-// use TBP\Command\Composer\NormalizeCommand;
-// use TBP\Command\Style\CheckCommand as StyleCheckCommand;
-// use TBP\Command\Style\FixCommand;
+// use Phony\Command\Composer\CheckCommand as ComposerCheckCommand;
+// use Phony\Command\Composer\NormalizeCommand;
+// use Phony\Command\Style\CheckCommand as StyleCheckCommand;
+// use Phony\Command\Style\FixCommand;
 
 final class Application extends BaseApplication
 {
-    public const string NAME = 'tbp';
+    public const string NAME = 'phony';
 
     public const string VERSION = '0.1.0';
 
