@@ -32,6 +32,6 @@
 
 <br>
 
-# Phony: All in one PHP toolchain
+# Phony — Your PHP Quality Stable
 
 This package @todo
