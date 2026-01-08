@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.2.0](https://github.com/wayofdev/phony/compare/v0.1.1...v0.2.0) (2026-01-08)
+
+
+### Features
+
+* add phar build ([bb2fc95](https://github.com/wayofdev/phony/commit/bb2fc95cf67692c64248edc1500cc9640a6f7bd0))
+* add phar build ([64486c2](https://github.com/wayofdev/phony/commit/64486c26d9a880c968c2a76329b8e9020e25f8e3))
+
+
+### Documentation
+
+* brand guidelines ([2f82a21](https://github.com/wayofdev/phony/commit/2f82a21d68f8fdfab8a802c12d823e65ba36ba5a))
+
 ## [0.1.1](https://github.com/wayofdev/phony/compare/v0.1.0...v0.1.1) (2026-01-07)
 
 
