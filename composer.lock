@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e46a810aad6954c1b3305c8fae728085",
+    "content-hash": "981c810fd8535cf249e4cfa6c26d87b0",
     "packages": [
         {
             "name": "azjezz/psl",
@@ -942,16 +942,16 @@
         },
         {
             "name": "friendsofphp/php-cs-fixer",
-            "version": "v3.92.3",
+            "version": "v3.92.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-                "reference": "2ba8f5a60f6f42fb65758cfb3768434fa2d1c7e8"
+                "reference": "9e7488b19403423e02e8403cc1eb596baf4673b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/2ba8f5a60f6f42fb65758cfb3768434fa2d1c7e8",
-                "reference": "2ba8f5a60f6f42fb65758cfb3768434fa2d1c7e8",
+                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/9e7488b19403423e02e8403cc1eb596baf4673b0",
+                "reference": "9e7488b19403423e02e8403cc1eb596baf4673b0",
                 "shasum": ""
             },
             "require": {
@@ -983,17 +983,17 @@
             },
             "require-dev": {
                 "facile-it/paraunit": "^1.3.1 || ^2.7",
-                "infection/infection": "^0.31.0",
-                "justinrainbow/json-schema": "^6.5",
-                "keradus/cli-executor": "^2.2",
+                "infection/infection": "^0.31",
+                "justinrainbow/json-schema": "^6.6",
+                "keradus/cli-executor": "^2.3",
                 "mikey179/vfsstream": "^1.6.12",
                 "php-coveralls/php-coveralls": "^2.9",
                 "php-cs-fixer/phpunit-constraint-isidenticalstring": "^1.6",
                 "php-cs-fixer/phpunit-constraint-xmlmatchesxsd": "^1.6",
-                "phpunit/phpunit": "^9.6.25 || ^10.5.53 || ^11.5.34",
+                "phpunit/phpunit": "^9.6.31 || ^10.5.60 || ^11.5.46",
                 "symfony/polyfill-php85": "^1.33",
-                "symfony/var-dumper": "^5.4.48 || ^6.4.24 || ^7.3.2 || ^8.0",
-                "symfony/yaml": "^5.4.45 || ^6.4.24 || ^7.3.2 || ^8.0"
+                "symfony/var-dumper": "^5.4.48 || ^6.4.26 || ^7.4.0 || ^8.0",
+                "symfony/yaml": "^5.4.45 || ^6.4.30 || ^7.4.1 || ^8.0"
             },
             "suggest": {
                 "ext-dom": "For handling output formats in XML",
@@ -1034,7 +1034,7 @@
             ],
             "support": {
                 "issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.92.3"
+                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.92.4"
             },
             "funding": [
                 {
@@ -1042,7 +1042,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-12-18T10:45:02+00:00"
+            "time": "2026-01-04T00:38:52+00:00"
         },
         {
             "name": "justinrainbow/json-schema",
@@ -6085,16 +6085,16 @@
         },
         {
             "name": "pestphp/pest",
-            "version": "v4.3.0",
+            "version": "v4.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pestphp/pest.git",
-                "reference": "e86bec3e68f1874c112ca782fb9db1333f3fe7ab"
+                "reference": "bc57a84e77afd4544ff9643a6858f68d05aeab96"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pestphp/pest/zipball/e86bec3e68f1874c112ca782fb9db1333f3fe7ab",
-                "reference": "e86bec3e68f1874c112ca782fb9db1333f3fe7ab",
+                "url": "https://api.github.com/repos/pestphp/pest/zipball/bc57a84e77afd4544ff9643a6858f68d05aeab96",
+                "reference": "bc57a84e77afd4544ff9643a6858f68d05aeab96",
                 "shasum": ""
             },
             "require": {
@@ -6107,7 +6107,7 @@
                 "pestphp/pest-plugin-profanity": "^4.2.1",
                 "php": "^8.3.0",
                 "phpunit/phpunit": "^12.5.4",
-                "symfony/process": "^7.4.0|^8.0.0"
+                "symfony/process": "^7.4.3|^8.0.0"
             },
             "conflict": {
                 "filp/whoops": "<2.18.3",
@@ -6185,7 +6185,7 @@
             ],
             "support": {
                 "issues": "https://github.com/pestphp/pest/issues",
-                "source": "https://github.com/pestphp/pest/tree/v4.3.0"
+                "source": "https://github.com/pestphp/pest/tree/v4.3.1"
             },
             "funding": [
                 {
@@ -6197,7 +6197,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-12-30T19:48:33+00:00"
+            "time": "2026-01-04T16:29:59+00:00"
         },
         {
             "name": "pestphp/pest-plugin",
@@ -7886,12 +7886,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "5ba14c800ff89c74333c22d56ca1c1f35c424805"
+                "reference": "9a341b84b3ebb8ad254193ce440b44c7d4375a4f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/5ba14c800ff89c74333c22d56ca1c1f35c424805",
-                "reference": "5ba14c800ff89c74333c22d56ca1c1f35c424805",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/9a341b84b3ebb8ad254193ce440b44c7d4375a4f",
+                "reference": "9a341b84b3ebb8ad254193ce440b44c7d4375a4f",
                 "shasum": ""
             },
             "conflict": {
@@ -8027,7 +8027,7 @@
                 "corveda/phpsandbox": "<1.3.5",
                 "cosenary/instagram": "<=2.3",
                 "couleurcitron/tarteaucitron-wp": "<0.3",
-                "craftcms/cms": "<=4.16.5|>=5,<=5.8.6",
+                "craftcms/cms": "<=4.16.16|>=5,<=5.8.20",
                 "croogo/croogo": "<=4.0.7",
                 "cuyz/valinor": "<0.12",
                 "czim/file-handling": "<1.5|>=2,<2.3",
@@ -8532,7 +8532,7 @@
                 "rap2hpoutre/laravel-log-viewer": "<0.13",
                 "react/http": ">=0.7,<1.9",
                 "really-simple-plugins/complianz-gdpr": "<6.4.2",
-                "redaxo/source": "<5.20.1",
+                "redaxo/source": "<=5.20.1",
                 "remdex/livehelperchat": "<4.29",
                 "renolit/reint-downloadmanager": "<4.0.2|>=5,<5.0.1",
                 "reportico-web/reportico": "<=8.1",
@@ -8885,7 +8885,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-01-02T22:05:49+00:00"
+            "time": "2026-01-05T20:06:42+00:00"
         },
         {
             "name": "sanmai/di-container",
@@ -10697,15 +10697,14 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": {
         "roave/security-advisories": 20
     },
-    "prefer-stable": false,
+    "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
         "php": "^8.3",
-        "ext-intl": "*",
         "ext-mbstring": "*"
     },
     "platform-dev": {},

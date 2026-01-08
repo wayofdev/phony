@@ -1,0 +1,28 @@
+#!/usr/bin/env php
+<?php
+
+declare(strict_types=1);
+
+use WayOfDev\Phony\Application;
+
+// Find autoloader
+$autoloadPaths = [
+    __DIR__ . '/../vendor/autoload.php',
+];
+
+$autoloadFound = false;
+foreach ($autoloadPaths as $autoloadPath) {
+    if (file_exists($autoloadPath)) {
+        require $autoloadPath;
+        $autoloadFound = true;
+        break;
+    }
+}
+
+if (! $autoloadFound) {
+    fwrite(STDERR, "Could not find autoloader. Run 'composer install' first.\n");
+    exit(1);
+}
+
+$application = new Application();
+$application->run();
