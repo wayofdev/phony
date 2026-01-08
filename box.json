@@ -1,0 +1,43 @@
+{
+    "$schema": "https://raw.githubusercontent.com/box-project/box/main/res/schema.json",
+    "alias": "phony.phar",
+    "compactors": [
+        "KevinGH\\Box\\Compactor\\Php"
+    ],
+    "compression": "GZ",
+    "directories": [
+        "src"
+    ],
+    "files": [
+        "bin/phony",
+        "LICENSE.md",
+        "composer.json",
+        "composer.lock"
+    ],
+    "finder": [
+        {
+            "name": "*.php",
+            "exclude": [
+                "Tests",
+                "tests",
+                "test",
+                "spec"
+            ],
+            "in": "vendor"
+        },
+        {
+            "name": "*",
+            "in": "vendor/symfony/console/Resources"
+        },
+        {
+            "name": "*.json",
+            "in": "vendor/ergebnis/composer-normalize/resource"
+        },
+        {
+            "name": "*.json",
+            "in": "vendor/maglnet/composer-require-checker/data"
+        }
+    ],
+    "replacement-sigil": "@",
+    "output": ".build/phar/phony.phar"
+}

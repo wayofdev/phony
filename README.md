@@ -1,12 +1,10 @@
 <p align="center">
-    <br>
     <a href="https://wayof.dev" target="_blank">
         <picture>
-            <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wayofdev/.github/master/assets/logo.gh-dark-mode-only.png">
-            <img width="400" src="https://raw.githubusercontent.com/wayofdev/.github/master/assets/logo.gh-light-mode-only.png" alt="WayOfDev Logo">
+            <source media="(prefers-color-scheme: dark)" srcset="assets/logo.png">
+            <img width="600" src="assets/logo.png" alt="WayOfDev Logo">
         </picture>
     </a>
-    <br>
 </p>
 
 <p align="center">
