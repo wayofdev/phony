@@ -1,6 +1,6 @@
 {
     "name": "wayofdev/phony",
-    "description": "PHP package template with GitHub Actions",
+    "description": "Phony: Your PHP Quality Stable — A unified CLI orchestrator tool-chain for PHP dev tools",
     "license": "BSD-3-Clause",
     "type": "library",
     "authors": [
