@@ -8,6 +8,7 @@ use WayOfDev\Phony\Application;
 // Find autoloader
 $autoloadPaths = [
     __DIR__ . '/../vendor/autoload.php',
+    __DIR__ . '/../../../autoload.php',
 ];
 
 $autoloadFound = false;

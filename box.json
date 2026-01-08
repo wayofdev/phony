@@ -9,7 +9,10 @@
         "src"
     ],
     "files": [
-        "vendor/autoload.php"
+        "bin/phony",
+        "LICENSE.md",
+        "composer.json",
+        "composer.lock"
     ],
     "finder": [
         {
