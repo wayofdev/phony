@@ -24,7 +24,7 @@
         "ergebnis/json-printer": "^3.8",
         "friendsofphp/php-cs-fixer": "^3.92",
         "maglnet/composer-require-checker": "^4.20",
-        "symfony/console": "^7.4"
+        "symfony/console": "^8.0"
     },
     "require-dev": {
         "ergebnis/phpunit-slow-test-detector": "^2.20",
