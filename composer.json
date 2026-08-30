@@ -35,7 +35,7 @@
         "phpstan/phpstan-phpunit": "^2.0",
         "phpstan/phpstan-strict-rules": "^2.0",
         "phpunit/phpunit": "^12.5",
-        "psalm/plugin-phpunit": "^0.19",
+        "psalm/plugin-phpunit": "^0.20",
         "rector/rector": "^2.3",
         "roave/infection-static-analysis-plugin": "^1.43",
         "roave/security-advisories": "dev-latest",
